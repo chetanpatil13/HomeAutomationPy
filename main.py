@@ -26,8 +26,9 @@
 
 from home_automation import MainMenu, Hall, Kitchen, MasterBedroom, SecondBedroom
 
+
 def main():
-    print("Welcome to Home Automation !!!")
+    print("\nWelcome to Home Automation !!!")
     menu = MainMenu()
     hall = Hall()
     kitchen = Kitchen()
